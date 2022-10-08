@@ -1,7 +1,7 @@
 const IF = require("./utils/helpers/if.js");
 const Discord = require("discord.js");
 const {CustomFunction} = require("./classes/Functions.js");
-const AoiError = require("./classes/AoiError.js");
+const AoiError = require("./classes/TRError.js");
 const Util = require("./classes/Util.js");
 
 //Helper of aoijs
@@ -10,7 +10,7 @@ const {CheckCondition} = require("./utils/helpers/checkCondition.js");
 const {mustEscape} = require("./utils/helpers/mustEscape.js");
 const {Command} = require("./classes/Commands.js");
 /**
- * @param  {import('./classes/AoiClient.js')} client
+ * @param  {import('./classes/TRClient.js')} client
  * @param  {Discord.Message | {
  * message?:Discord.Message,
  * channel?:Discord.PartialDMChannel | Discord.DMChannel | Discord.TextChannel | Discord.NewsChannel | Discord.ThreadChannel,
