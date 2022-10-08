@@ -1,8 +1,8 @@
-const Client = require("./classes/AoiClient");
+const Client = require("./classes/TRClient");
 const CustomEvent = require("./classes/NewEvent.js");
 const LoadCommands = require("./classes/LoadCommands.js");
 const ClientShard = require("./classes/ClientShard.js");
-const AoiError = require("./classes/AoiError.js");
+const TRError = require("./classes/TRError.js");
 const Util = require("./classes/Util.js");
 
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
    */
   ////Bot: Client,
   Bot: Client,
-  AoiClient: Client,
+  TRClient: Client,
   /**
    * *  Custom Events Class
    * @example new CustomEvent(client (eg: bot))
@@ -30,10 +30,10 @@ module.exports = {
      **/
   LoadCommands,
   ClientShard,
-  // * AoiError Class
+  // * TRError Class
   AoiError,
   // * Util Class
   Util,
 };
 
-/*Copyright © 2021 @Akarui Development*/
+/*Copyright © 2021 @TR Development*/
